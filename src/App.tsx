@@ -231,18 +231,12 @@ function App() {
   return (
     <main className="page">
 
-      {/* ================= NAVBAR ================= */}
-
       <header className="navbar">
 
-        {/* REAL LOGO IMAGE */}
         <a href="#" className="brand">
-          <img
-            src="/logo-text.png"
-            alt="Dev Stack"
-            className="brand-logo"
-          />
-        </a>
+  <img src="./assets/logo-text.png" alt="" />
+  <span></span>
+</a>
 
         <nav className="navigation">
           {navItems.map((item, index) => (
@@ -263,7 +257,7 @@ function App() {
 
       </header>
 
-      {/* ================= HERO ================= */}
+    
 
       <section className="hero" id="home">
 
@@ -322,8 +316,7 @@ function App() {
 
       </section>
 
-      {/* ================= TECHNOLOGIES ================= */}
-
+      
       <section
         className="technology-section"
         id="technologies"
@@ -420,7 +413,7 @@ function App() {
 
           </div>
 
-          {/* ================= YOUR STACK ================= */}
+          
 
           <aside className="your-stack">
 
@@ -512,15 +505,13 @@ function App() {
 
       </section>
 
-      {/* =====================================================
-          FOOTER
-      ===================================================== */}
+     
 
       <footer className="footer">
 
         <div className="footer-container">
 
-          {/* FOOTER BRAND */}
+         
 
           <div className="footer-brand">
 
@@ -571,7 +562,7 @@ function App() {
 
           </div>
 
-          {/* PRODUCT */}
+         
 
           <div className="footer-column">
 
@@ -593,7 +584,7 @@ function App() {
 
           </div>
 
-          {/* COMPANY */}
+         
 
           <div className="footer-column">
 
@@ -615,7 +606,7 @@ function App() {
 
           </div>
 
-          {/* LEGAL */}
+       
 
           <div className="footer-column">
 
@@ -635,7 +626,7 @@ function App() {
 
         </div>
 
-        {/* FOOTER BOTTOM */}
+      
 
         <div className="footer-bottom">
 
