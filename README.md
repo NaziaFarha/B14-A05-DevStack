@@ -1,4 +1,4 @@
-1. My project name is B14-A05-DevStack.
+1. The name of the  project  is B14-A05-DevStack.
 
 2. This DevStack is a simple react project. This project is  user-friendly React application for exploring different web technologies and managing a personal technology stack. Users can view available technologies, select their favorite ones, and add or remove them from their stack. The project is built with React and TypeScript, with a clean and responsive design that works well on different screen sizes.
 3. I had to use many technologies such as Typescript,React,CSS,JSON and Vite.
