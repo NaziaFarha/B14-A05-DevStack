@@ -4,6 +4,6 @@ import { defineConfig } from 'vite'
 
 
 export default defineConfig({
-  base: '/B14-A05-DevStack/',
+  // base: '/B14-A05-DevStack/',
   plugins: [react(), tailwindcss()],
 })

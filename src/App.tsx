@@ -161,49 +161,6 @@ const technologies : Technology[] = [
   },
 ];
 
-function StackIllustration() {
-  return (
-    <div className="stack-wrapper">
-      <div className="stack-glow" />
-
-      <div className="stack-layer stack-top">
-        <div className="layer-content">
-          <div className="layer-icon">A</div>
-          <div className="layer-line line-long" />
-          <div className="layer-line line-short" />
-          <div className="layer-circle" />
-        </div>
-      </div>
-
-      <div className="stack-layer stack-middle">
-        <div className="layer-content">
-          <div className="layer-icon purple">◉</div>
-          <div className="layer-line line-long" />
-          <div className="layer-line line-medium" />
-          <div className="layer-box" />
-        </div>
-      </div>
-
-      <div className="stack-layer stack-bottom">
-        <div className="layer-content">
-          <div className="layer-icon pink">◆</div>
-          <div className="layer-line line-long" />
-          <div className="layer-line line-medium" />
-          <div className="layer-box" />
-        </div>
-      </div>
-
-      <div className="connector connector-1" />
-      <div className="connector connector-2" />
-      <div className="connector connector-3" />
-
-      <span className="floating-dot dot-1" />
-      <span className="floating-dot dot-2" />
-      <span className="floating-dot dot-3" />
-      <span className="floating-dot dot-4" />
-    </div>
-  );
-}
 
 function App() {
   const [stack, setStack] = useState<Technology[]>([]);
@@ -234,7 +191,7 @@ function App() {
       <header className="navbar">
 
         <a href="#" className="brand">
-  <img src="./assets/logo-text.png" alt="" />
+  <img src="/assets/logo-text.png" alt="DevStack" />
   <span></span>
 </a>
 
@@ -308,7 +265,7 @@ function App() {
 
         <div className="hero-visual">
           <img
-            src="./assets/banner-stack.png"
+            src="/assets/banner-stack.png"
             alt="Development Stack"
             className="hero-image"
           />
