@@ -1,12 +1,12 @@
 [
   {
-    "id": "react",
-    "name": "React",
-    "category": "Frontend",
-    "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
-    "icon": "https://icon.icepanel.io/Technology/svg/React.svg",
-    "rating": 4.9,
-    "difficulty": "Beginner-Friendly",
+    "id" : "react",
+    "name" : "React",
+    "category" : "Frontend",
+    "description" : "A declarative, component-based JavaScript library for building modern user interfaces.",
+    "icon" : "https://icon.icepanel.io/Technology/svg/React.svg",
+    "rating" : 4.9,
+    "difficulty" : "Beginner-Friendly",
     "badge": "Popular"
   },
   {
@@ -30,34 +30,34 @@
     "badge": "Popular"
   },
   {
-    "id": "postgresql",
-    "name": "PostgreSQL",
-    "category": "Database",
-    "description": "A powerful open-source relational database system.",
-    "icon": "https://icon.icepanel.io/Technology/svg/PostgresSQL.svg",
-    "rating": 4.9,
-    "difficulty": "Intermediate",
-    "badge": "Top SQL"
+    "id" : "postgresql",
+    "name" : "PostgreSQL",
+    "category" : "Database",
+    "description" : "A powerful open-source relational database system.",
+    "icon" : "https://icon.icepanel.io/Technology/svg/PostgresSQL.svg",
+    "rating" : 4.9,
+    "difficulty" : "Intermediate",
+    "badge" : "Top SQL"
   },
   {
-    "id": "typescript",
-    "name": "TypeScript",
-    "category": "Language",
-    "description": "A strongly typed programming language that builds on JavaScript.",
-    "icon": "https://icon.icepanel.io/Technology/svg/TypeScript.svg",
-    "rating": 4.9,
-    "difficulty": "Intermediate",
-    "badge": "Essential"
+    "id" : "typescript",
+    "name" : "TypeScript",
+    "category" : "Language",
+    "description" : "A strongly typed programming language that builds on JavaScript.",
+    "icon" : "https://icon.icepanel.io/Technology/svg/TypeScript.svg",
+    "rating" : 4.9,
+    "difficulty" : "Intermediate",
+    "badge" : "Essential"
   },
   {
-    "id": "javascript",
-    "name": "JavaScript",
-    "category": "Language",
-    "description": "A versatile programming language for interactive web applications.",
-    "icon": "https://icon.icepanel.io/Technology/svg/JavaScript.svg",
-    "rating": 4.9,
-    "difficulty": "Beginner-Friendly",
-    "badge": "Essential"
+    "id" : "javascript",
+    "name" : "JavaScript",
+    "category" : "Language",
+    "description" : "A versatile programming language for interactive web applications.",
+    "icon" : "https://icon.icepanel.io/Technology/svg/JavaScript.svg",
+    "rating" : 4.9,
+    "difficulty" : "Beginner-Friendly",
+    "badge" : "Essential"
   },
   {
     "id": "tailwind",
