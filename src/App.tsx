@@ -16,41 +16,41 @@ type Technology = {
   badgeClass?: string;
 };
 
-const technologies: Technology[] = [
+const technologies : Technology[] = [
   {
     id: 1,
-    name: "React",
+    name : "React",
     category: "Frontend",
     level: "Beginner-Friendly",
-    rating: 4.9,
-    icon: "⚛",
-    badge: "Popular",
-    badgeClass: "badge-blue",
-    description:
+    rating : 4.9,
+    icon : "⚛",
+    badge : "Popular",
+    badgeClass : "badge-blue",
+    description :
       "A declarative, component-based JavaScript library for building modern user interfaces.",
   },
   {
     id: 2,
-    name: "Vue.js",
-    category: "Frontend",
-    level: "Beginner-Friendly",
-    rating: 4.8,
-    icon: "V",
-    badge: "Versatile",
-    badgeClass: "badge-green",
-    description:
+    name : "Vue.js",
+    category : "Frontend",
+    level : "Beginner-Friendly",
+    rating : 4.8,
+    icon : "V",
+    badge : "Versatile",
+    badgeClass : "badge-green",
+    description :
       "An approachable, performant, and versatile framework for building web user interfaces.",
   },
   {
     id: 3,
-    name: "Svelte",
-    category: "Frontend",
-    level: "Intermediate",
-    rating: 4.8,
-    icon: "S",
-    badge: "Fast",
-    badgeClass: "badge-orange",
-    description:
+    name : "Svelte",
+    category : "Frontend",
+    level : "Intermediate",
+    rating : 4.8,
+    icon : "S",
+    badge : "Fast",
+    badgeClass : "badge-orange",
+    description :
       "Cybernetically enhanced web apps with compile-time reactivity and zero virtual DOM overhead.",
   },
   {
@@ -655,4 +655,3 @@ function App() {
 }
 
 export default App;
-// project is complete
